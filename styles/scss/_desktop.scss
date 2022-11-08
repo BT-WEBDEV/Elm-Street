@@ -1,0 +1,198 @@
+/* Home */
+@media (min-width: $screen-md) {
+	.desktop-spacing {
+		padding-left: 100px;
+		padding-bottom: 50px;
+	}
+	.desktop-spacing-top {
+		padding-left: 100px !important;
+		padding-top: 50px !important;
+	}
+	.main-content {
+		background-size: 100% 50%;
+		.inner-content {
+			width: 50%;
+		}
+		.header {
+			h1 {
+				font-size: 60px;
+			}
+		}
+	}
+	.page-content {
+		background-size: 100% 84%;
+		width: 50%;
+	}
+
+	.com-about {
+		h1 {
+			span:nth-child(2),
+			span:nth-child(3),
+			span:nth-child(4) {
+				display: inline;
+				font-size: 80px;
+			}
+			span:nth-child(1) {
+				display: block;
+			}
+		}
+		.btn-custom {
+			width: auto;
+			padding-left: 50px;
+			padding-right: 50px;
+		}
+	}
+}
+
+@media (min-width: $screen-sm) {
+	.custom-navbar .navbar-nav {
+		padding-left: 17%;
+		.nav-link {
+			font-size: 40px;
+		}
+		.drop-menu {
+			margin-left: 20px;
+			.nav-link {
+				font-weight: 300;
+			}
+		}
+	}
+}
+
+/* About Us */
+@media (min-width: $screen-md) {
+	.about-us {
+		background-size: 57%;
+    	background-position: right bottom;
+	}
+	.about-spacing {
+		padding: 0 100px;
+	}
+	.about-number {
+		margin-top: 0px;
+		h3 {
+			font-size: 170px;
+			line-height: 1.2;
+		}
+		p {
+			font-size: 55px;
+			font-weight: 300;
+		}
+	}
+
+	.team {
+		padding-left: 110px;
+		padding-right: 110px;
+	}
+	.teamWrapper {
+		padding: 0 5px;
+	}
+}
+@media (min-width: $screen-lg) and (max-width: 1420px) {
+	.teamWrapper .member-hover {
+		padding: 7px 10px;
+		.content  {
+			font-weight: 300;
+			font-size: 13px;
+		}
+	}
+}
+/* Communities */
+@media (min-width: $screen-md) {
+	.com-content {
+		padding-left: 100px;
+		padding-top: 50px;
+		width: 50%;
+		position: relative;
+		z-index: 99;
+		h1 {
+			font-size: 90px;
+			letter-spacing: -7px;
+		}
+		p {
+			font-size: 22px;
+		}
+	}
+	.img-absolute {
+		position: absolute;
+		z-index: 0;
+	}
+	.c-img-1 {
+		left: 20%;
+		top: 10%;
+		right: 0;
+		margin: auto;
+		max-width: 430px;
+	}
+	.c-img-2 {
+		max-width: 650px;
+		left: auto;
+		right: 15%;
+		top: 10%;
+		transform: translateY(0%);
+	}
+	.community-content {
+		width: 70%;
+	}
+}
+
+
+/* Contact Us */
+@media (min-width: $screen-md) {
+	.landowner-info {
+		display: block;
+		font-size: 9px;
+		-ms-flex-item-align: center!important;
+    	align-self: center!important;
+	}
+	.contactForm {
+		.btn-purple {
+			display: -ms-flexbox!important;
+	    	display: flex!important;
+			text-align: left;
+			border-radius: 8px;
+			padding: 10px 15px;
+			margin-left: 0px;
+			margin-right: 0px;
+			span {
+				-ms-flex-item-align: center!important;
+	    		align-self: center!important;
+	    		font-size: 22px;
+	    		margin-right: 20px;
+			}
+		}
+	}
+	.contact-header {
+		h1 {
+		    font-size: 90px;
+		}
+		p {
+			font-size: 22px;
+		}
+	}
+	.office-locations .content {
+		h5:nth-child(1) {
+			font-weight: 700 !important;
+			font-size: 24px;
+		}
+		h5:nth-child(3) {
+			font-weight: 200;
+			width: 80%;
+			margin: 0 auto;
+		}
+		.btn {
+			display: block;
+			margin: 0 auto;
+			margin-top: 15px;
+			border-radius: 5px;
+		}
+		.btn-orange {
+			padding: 10px 0;
+			width: 200px;
+			font-size: 20px;
+
+		}
+	}
+}
+
+

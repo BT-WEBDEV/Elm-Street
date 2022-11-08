@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^mail\.elmstreetdev\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.mail\.elmstreetdev\.com$
+RewriteRule ^/?$ "http\:\/\/mail\.office365\.com" [R=301,L]
+

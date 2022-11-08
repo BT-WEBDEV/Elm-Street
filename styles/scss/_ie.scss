@@ -1,0 +1,61 @@
+/* Welcome to Compass. Use this file to write IE specific override styles.
+ * Import this file using the following HTML or equivalent:
+ * <!--[if IE]>
+ *   <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+ * <![endif]--> */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+	.custom-navbar .navbar-toggler {
+		position: absolute;
+		right: 0px;
+		top: 35px;
+	}
+	.white-bg {
+		.navbar-toggler {
+			top: 20px;
+			right: 10px;
+		}
+	}
+	.underline {
+		width: 25%;
+	}
+	.green-gredient-text {
+		background: none;
+		color: #aed56d;
+	}
+	.custom-navbar .navbar-nav .nav-link {
+		background: none !important;
+		color: #3b3b6e !important;
+	}
+	.g-pink {
+		background: none !important;
+		color: #e095f1 !important;
+	}
+	.g-green {
+		background: none !important;
+		color: #adeb9a !important;
+	}
+	.g-orange {
+		background: none !important;
+		color: #e48a85 !important;
+	}
+	.g-b-green {
+		background: none !important;
+		color: #b7fa91 !important;
+	}
+	.g-purple {
+		background: none !important;
+		color: #9e5bf0 !important;
+	}
+	.g-blue {
+		background: none !important;
+		color: #898ff5 !important;
+	}
+	.c-img-1 {
+		left: 50%;
+	}
+	.team-member .disc h4 {
+		background: none !important;
+		color: #7a80e8 !important;
+	}
+}
+

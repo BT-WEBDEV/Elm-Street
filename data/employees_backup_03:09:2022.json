@@ -1,0 +1,327 @@
+{
+	"employees": 
+	[
+		{
+			"name": "David Flanagan",
+			"title": "President and Principal",
+			"image": "DavidF.jpg",
+			"email": "dflanagan@elmstreetdev.com",
+			"linkedin": "",
+			"bio": "A company founder, Mr. Flanagan oversees region-wide development opportunities for the entire company. "
+		},
+		{
+			"name": "Jeff Rice",
+			"title": "Chief Financial Officer",
+			"image": "Jeff.jpg",
+			"email": "jrice@elmstreetdev.com",
+			"linkedin": "https://www.linkedin.com/in/jeff-rice-1a0711126",
+			"bio": "A Certified Public Accountant, Jeff obtains the financing that supports Elm Street’s acquisition, development and construction programs."
+		},
+		{
+			"name": "John Clarke",
+			"title": "Regional Partner",
+			"title2": "Vice President",
+			"image": "John.jpg",
+			"email": "jclarke@elmstreetdev.com",
+			"linkedin": "https://www.linkedin.com/in/john-clarke-88a74831",
+			"bio": "Oversees the land acquisition and development activities in DC Suburban Maryland and Frederick region. Responsible for all Elm Street efforts in Montgomery, Frederick, Prince George’s and Washington Counties, MD."
+		},
+		{
+			"name": "Russ Dickens",
+			"title": "Regional Partner",
+			"title2": "Vice President",
+			"image": "RussD.jpg",
+			"email": "rdickens@elmstreetdev.com",
+			"linkedin": "https://www.linkedin.com/in/russ-dickens-956a129",
+			"bio": "Oversees the land acquisition and development activities of the Ellicott City based team. Responsible for all Elm Street efforts in Baltimore, Carroll, Cecil, Harford and Howard Counties, Maryland. "
+		},
+		{
+			"name": "Rick Entsminger",
+			"title": "Regional Partner",
+			"title2": "Vice President",
+			"image": "Rick.jpg",
+			"email": "rentsminger@elmstreetdev.com",
+			"linkedin": "https://www.linkedin.com/in/rick-entsminger-635b249b",
+			"bio": "Responsible for acquisition and development activities in Loudoun County, Virginia."
+		},
+		{
+			"name": "Karen McJunkin",
+			"title": "Regional Partner",
+			"title2": "Vice President",
+			"image": "KarenM.jpg",
+			"email": "kmcjunkin@elmstreetdev.com",
+			"linkedin": "https://www.linkedin.com/in/karen-mcjunkin-22100ba",
+			"bio": "Directs the land acquisition and development activities of the Annapolis based team. Responsible for all Elm Street efforts in Washington D.C and Anne Arundel County, Charles County and the Eastern Shore of Maryland."
+		},
+		{
+			"name": "Jim Perry",
+			"title": "Regional Partner",
+			"title2": "Vice President",
+			"image": "JimP.jpg",
+			"email": "jperry@elmstreetdev.com",
+			"linkedin": "https://www.linkedin.com/in/jim-perry-26926516",
+			"bio": "Directs the Virginia development team. Responsible for all of Elm Street’s Virginia acquisition and development activities."
+		},
+		{
+			"name": "Kristen G. Hartman",
+			"title": "Treasurer",
+			"title2": "Secretary",
+			"image": "Kristen.jpg",
+			"email": "khartman@elmstreetdev.com",
+			"linkedin": "https://www.linkedin.com/in/kristen-hartman-b46446b/",
+			"bio": "A Certified Public Accountant, Kris leads the team responsible for project accounting, tax planning, tax returns and financial statements for all companies under the Elm Street umbrella."
+		},
+		{
+			"name": "Lauren Bauer",
+			"title": "Vice President",
+			"title2": "",
+			"image": "LaurenB.jpg",
+			"email": "lbauer@elmstreetdev.com",
+			"linkedin": "https://www.linkedin.com/in/lauren-block-bauer-7bab701",
+			"bio": "Responsible for managing all facets of Elm Street’s commercial and multi-family assets."
+		},
+		{
+			"name": "Jude Burke",
+			"title": "Vice President",
+			"title2": "",
+			"image": "Jude.jpg",
+			"email": "jburke@elmstreetdev.com",
+			"linkedin": "https://www.linkedin.com/in/jude-burke-0a10bb3",
+			"bio": "Responsible for all acquisition and development efforts in Prince George’s County, Maryland."
+		},
+		{
+			"name": "Mike Burlbaugh",
+			"title": "Vice President",
+			"title2": "",
+			"image": "MikeB.jpg",
+			"email": "mburlbaugh@elmstreetdev.com",
+			"linkedin": "https://www.linkedin.com/in/michael-burlbaugh-6a1a2521",
+			"bio": "Responsible for all acquisition and development efforts in the Annapolis area as well as Queen Anne’s and Talbot Counties, Maryland."
+		},
+		{
+			"name": "Michael Charlton",
+			"title": "Vice President",
+			"title2": "",
+			"image": "MichaelC.jpg",
+			"email": "mcharlton@elmstreetdev.com",
+			"linkedin": "https://www.linkedin.com/in/michael-charlton-068a6b1",
+			"bio": "Responsible for land acquisition and development activities in Harford and Cecil Counties, Maryland and Southern Pennsylvania."
+		},
+		{
+			"name": "Doug Flanagan",
+			"title": "Vice President",
+			"title2": "",
+			"image": "Doug.jpg",
+			"email": "dmflanagan@elmstreetdev.com",
+			"linkedin": "https://www.linkedin.com/in/doug-flanagan-9a94867",
+			"bio": "Manages apartment development projects throughout the Washington-Baltimore area."
+		},
+		{
+			"name": "Steve Horne",
+			"title": "Vice President",
+			"title2": "",
+			"image": "SteveH.jpg",
+			"email": "shorne@elmstreetdev.com",
+			"linkedin": "https://www.linkedin.com/in/stephenmhorne",
+			"bio": "Responsible for land acquisition and development opportunities in Washington D.C. and Anne Arundel County, Maryland."
+		},
+		{
+			"name": "Joe Jacobs",
+			"title": "Vice President",
+			"title2": "",
+			"image": "Joe.jpg",
+			"email": "jjacobs@elmstreetdev.com",
+			"linkedin": "https://www.linkedin.com/in/jacobs-joseph-849b5713",
+			"bio": "Leads all acquisition and development efforts in Prince William, Stafford and Culpeper Counties, Virginia."
+		},
+		{
+			"name": "Jim Krapf",
+			"title": "Vice President",
+			"title2": "",
+			"image": "JimK.jpg",
+			"email": "jkrapf@elmstreetdev.com",
+			"linkedin": "https://www.linkedin.com/in/jim-krapf-0284556",
+			"bio": "Leads Elm Street’s acquisition and development efforts in Anne Arundel County, Maryland."
+		},
+		{
+			"name": "Kate Kubit",
+			"title": "Vice President",
+			"title2": "",
+			"image": "Kate.jpg",
+			"email": "kkubit@elmstreetdev.com",
+			"linkedin": "https://www.linkedin.com/in/kate-kubit-a693657",
+			"bio": "Responsible for acquisition and development efforts in Montgomery County, Maryland."
+		},
+		{
+			"name": "Doug Meeker",
+			"title": "Vice President",
+			"title2": "",
+			"image": "DougM.jpg",
+			"email": "dmeeker@elmstreetdev.com",
+			"linkedin": "https://www.linkedin.com/in/doug-meeker-9741b3a",
+			"bio": "Leads all Elm Street acquisition and development efforts in Charles County, Maryland."
+		},
+		{
+			"name": "Jim Mobley",
+			"title": "Vice President",
+			"title2": "",
+			"image": "JimM2.jpg",
+			"email": "jmobley@elmstreetdev.com",
+			"linkedin": "https://www.linkedin.com/in/jim-mobley-583486a",
+			"bio": "Manages apartment development and construction throughout the Washington-Baltimore region."
+		},
+		{
+			"name": "Dave Murphy",
+			"title": "Vice President",
+			"title2": "",
+			"image": "DaveM.jpg",
+			"email": "dmurphy@elmstreetdev.com",
+			"linkedin": "https://www.linkedin.com/in/dave-murphy-a443581",
+			"bio": "Manages current development projects and targets new development opportunities in Baltimore City and Baltimore County, Maryland."
+		},
+		{
+			"name": "Jack Perkins",
+			"title": "Vice President",
+			"title2": "",
+			"image": "Jack.jpg",
+			"email": "jperkins@elmstreetdev.com",
+			"linkedin": "https://www.linkedin.com/in/jack-perkins-1236688",
+			"bio": "Manages development projects in Northern Virginia with a focus on Fairfax and Stafford Counties as well as the City of Alexandria."
+		},
+		{
+			"name": "Stefanie Smith",
+			"title": "Vice President",
+			"title2": "",
+			"image": "Stefanie.jpg",
+			"email": "ssmith@elmstreetdev.com",
+			"linkedin": "https://www.linkedin.com/in/stefanie-smith-73b1b0",
+			"bio": "Leads acquisition and residential development efforts in Arlington and Loudoun Counties as well as portions of Fairfax County."
+		},
+		{
+			"name": "Jason Van Kirk",
+			"title": "Vice President",
+			"title2": "",
+			"image": "Jason.jpg",
+			"email": "jvankirk@elmstreetdev.com",
+			"linkedin": "https://www.linkedin.com/in/jason-van-kirk-1795a",
+			"bio": "Leads Elm Street acquisition and development efforts in Howard and Carroll Counties, Maryland."
+		},
+		{
+			"name": "Jason Wiley",
+			"title": "Vice President",
+			"title2": "",
+			"image": "JasonW.jpg",
+			"email": "jwiley@elmstreetdev.com",
+			"linkedin": "https://www.linkedin.com/in/jason-wiley-163667",
+			"bio": "Leads acquisition and development efforts in Frederick and Washington Counties, Maryland."
+		},
+		{
+			"name": "Brian Barnes",
+			"title": "Project Manager",
+			"title2": "",
+			"image": "BrianB.jpg",
+			"email": "bbarnes@elmstreetdev.com",
+			"linkedin": "https://www.linkedin.com/in/brian-barnes-16a698a1",
+			"bio": "Manages the development of new communities in Virginia."
+		},
+		{
+			"name": "Mike Bingley",
+			"title": "Project Manager",
+			"title2": "",
+			"image": "MikeB2.jpg",
+			"email": "mbingley@elmstreetdev.com",
+			"linkedin": "",
+			"bio": "Manages the development of communities in Montgomery County, Maryland."
+		},
+		{
+			"name": "Gene Bollinger",
+			"title": "Project Manager",
+			"title2": "",
+			"image": "Gene.jpg",
+			"email": "gbollinger@elmstreetdev.com",
+			"linkedin": "https://www.linkedin.com/in/gene-bollinger-8801b8a0",
+			"bio": "Manages projects in Montgomery and Frederick Counties, Maryland and Loudoun County, Virginia."
+		},
+		{
+			"name": "Rich Bruce",
+			"title": "Project Manager",
+			"title2": "",
+			"image": "RichB.jpg",
+			"email": "rbruce@elmstreetdev.com",
+			"linkedin": "https://www.linkedin.com/in/richard-bruce-a45a1b25",
+			"bio": "Manages the development of communities in Anne Arundel County and the Eastern Shore of Maryland"
+		},
+		{
+			"name": "Nick Flanagan",
+			"title": "Project Manager",
+			"title2": "Asset Manager",
+			"image": "Nick.jpg",
+			"email": "nflanagan@elmstreetdev.com",
+			"linkedin": "https://www.linkedin.com/in/nick-flanagan-223a0917",
+			"bio": "Manages development projects and serves as asset manager for Legend Management Group, Elm Street’s apartment management company."
+		},
+		{
+			"name": "Mike Macon",
+			"title": "Project Manager",
+			"title2": "",
+			"image": "MikeM.jpg",
+			"email": "mmacon@elmstreetdev.com",
+			"linkedin": "https://www.linkedin.com/in/michael-macon-82554991",
+			"bio": "Manages the development of communities in Baltimore and Howard Counties, Maryland."
+		},
+		{
+			"name": "Andrew McKenna",
+			"title": "Project Manager",
+			"title2": "",
+			"image": "AndrewM.jpg",
+			"email": "amckenna@elmstreetdev.com",
+			"linkedin": "",
+			"bio": "Manages the development of communities in Washington D.C. and Anne Arundel County, Maryland."
+		},
+		{
+			"name": "Rick Warfield",
+			"title": "Project Manager",
+			"title2": "",
+			"image": "RickW.jpg",
+			"email": "rwarfield@elmstreetdev.com",
+			"linkedin": "",
+			"bio": "Managing development of communities in Montgomery County. Maryland"
+		},
+		{
+			"name": "George Pratt",
+			"title": "Assistant Project Manager",
+			"title2": "",
+			"image": "GeorgeP.jpg",
+			"email": "gpratt@elmstreetdev.com",
+			"linkedin": "https://www.linkedin.com/in/george-pratt-956400b6",
+			"bio": "Assists with the conception, entitlements and development of communities in Anne Arundel County, Maryland."
+		},
+		{
+			"name": "Robbie Thompson",
+			"title": "Project Manager",
+			"title2": "",
+			"image": "RobbieT.jpg",
+			"email": "rthompson@elmstreetdev.com",
+			"linkedin": "",
+			"bio": "Manages the development of new communities in Charles and Anne Arundel Counties, Maryland."
+		},
+		{
+			"name": "Steve Weber",
+			"title": "Project Manager",
+			"title2": "",
+			"image": "Steve.jpg",
+			"email": "sweber@elmstreetdev.com",
+			"linkedin": "",
+			"bio": "Manages the development of new communities in Virginia."
+		},
+		{
+			"name": "Geoff Yeager",
+			"title": "Project Manager",
+			"title2": "",
+			"image": "GeoffY.jpg",
+			"email": "gyeager@elmstreetdev.com",
+			"linkedin": "http://linkedin.com/in/geoff-yeager-117721116",
+			"bio": "Manages the development of new communities in Howard County and Carroll County, Maryland."
+		}
+	]
+}

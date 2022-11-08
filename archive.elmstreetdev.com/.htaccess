@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^archive\.elmstreetdev\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.archive\.elmstreetdev\.com$
+RewriteRule ^/?$ "http\:\/\/webfolder\.liveoffice\.com" [R=301,L]
+

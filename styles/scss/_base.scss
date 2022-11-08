@@ -1,0 +1,273 @@
+/* Scrolling */
+html,
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	letter-spacing: -0px;
+}
+
+#communities, #about-us-section, #office-locations, #contact-us {
+	.content-position {
+		position: absolute;
+		top: 0px;
+		left: 0px;
+	}
+}
+
+.wipesDuration {
+	// margin-bottom: 60vh;
+}
+
+.wipesDuration-2 {
+	// margin-bottom: 30vh;
+}
+
+// .text-content-wrap {
+// 	background-color: black;
+// 	.text-content {
+// 		height: 90vh;
+// 	}
+// }
+
+h1 {
+	margin: 0px;
+	line-height: 1;
+	letter-spacing: -3px;
+}
+
+h2 {}
+
+h3 {}
+
+h4 {
+	margin: 0px;
+	font-weight: bold;
+}
+
+p {
+	margin-bottom: 5px;
+}
+
+.img-fit {
+	width: 100%;
+	height: 100%;
+	-o-object-fit: cover;
+	object-fit: cover;
+	-o-object-position: 50% 50%;
+	object-position: 50% 50%;
+}
+
+.p-relative {
+	position: relative;
+}
+
+.p-static {
+	position: static;
+}
+
+.vh-100 {
+	height: 100vh;
+}
+
+.font-weight-lighter {
+	font-weight: 200;
+}
+
+.vertical-align-center {
+	vertical-align: center;
+}
+
+/* Gradient Background */
+.bg-home-1 {
+	@include gradient-horizontal(rgba(46, 122, 178, 0.95), rgba(93, 73, 180, 0.95), 50%, 100%);
+}
+
+.bg-home {
+	@include gradient-horizontal(rgba(151, 134, 255, 0.84), rgba(143, 255, 204, 0.84), 50%, 100%);
+}
+
+.bg-purple {
+	@include gradient-horizontal(rgba(255, 134, 134, 0.84), rgba(182, 143, 255, 0.84), 50%, 100%);
+}
+
+.bg-green {
+	@include gradient-horizontal(rgba(183, 224, 114, 0.84), rgba(101, 179, 95, 0.84), 50%, 100%);
+}
+
+.bg-blue {
+	@include gradient-horizontal(rgba(114, 224, 191, 0.84), rgba(95, 142, 179, 0.84), 50%, 100%);
+}
+
+.bg-red {
+	@include gradient-horizontal(rgba(224, 121, 114, 0.84), rgba(179, 65, 103, 0.84), 50%, 100%);
+}
+
+/* Dashed Underline */
+.underline {
+	height: 3px;
+	width: 60%;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: 5px 0;
+}
+
+.dash-home {
+	background-image: url('/images/dashed/home-green.svg');
+}
+
+.dash-purple {
+	background-image: url('/images/dashed/purple.svg');
+}
+
+.dash-green {
+	background-image: url('/images/dashed/green.svg');
+}
+
+.dash-blue {
+	background-image: url('/images/dashed/blue.svg');
+}
+
+.dash-red {
+	background-image: url('/images/dashed/red.svg');
+}
+
+.dash-orange {
+	background-image: url('/images/dashed/orange.svg');
+}
+
+.dash-pink {
+	background-image: url('/images/dashed/pink.svg');
+}
+
+/* Gradient text */
+.green-gredient-text {
+	background: linear-gradient(to right, #65B35F 0%, #AED56D 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.purple-gredient-text {
+	background: linear-gradient(to right, #7a80e8 0%, #7ec0fc 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.g-pink {
+	background: linear-gradient(to right, #ED8E8B 0%, #E095F1 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.g-green {
+	background: linear-gradient(to right, #ADEB9A 0%, #A2F4C7 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.g-b-green {
+	background: linear-gradient(to right, #8BCEFF 0%, #B7FA91 50%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.g-orange {
+	background: linear-gradient(to right, #E48A85 0%, #FADC89 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.g-blue {
+	background: linear-gradient(to right, #65ACF6 0%, #898FF5 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.g-purple {
+	background: linear-gradient(to right, #9E5BF0 0%, #C64FCC 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+/* Buttons */
+.btn-purple {
+	@include gradient-horizontal(#6B4BB1, #532C66, 50%, 100%);
+}
+
+.btn-blue {
+	@include gradient-horizontal(#739BE0, #6CC0C4, 50%, 100%);
+}
+
+.btn-orange {
+	@include gradient-horizontal(#E384A5, #FFCC89, 50%, 100%);
+}
+
+.animated {
+	-webkit-animation-duration: 1.2s;
+	animation-duration: 1.2s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+}
+
+@keyframes fadeInUp {
+	0% {
+		opacity: 0;
+		-webkit-transform: translate3d(0, 30%, 0);
+		transform: translate3d(0, 30%, 0);
+	}
+
+	100% {
+		opacity: 1;
+		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+	}
+}
+
+.inner-mask {
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	width: 100%;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.35);
+}
+
+.img-caption {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 2px 20px;
+	display: none;
+}
+
+.img-absolute:hover {
+	.img-caption {
+		display: block;
+	}
+}
+
+// Phone
+@media (max-width: $screen-xs-max) {
+
+	.text-content-wrap {
+		// background-color: black;
+		.text-content {
+			height: 90vh;
+		}
+	}
+}
+
+// Tablet
+@media (min-width: $screen-sm) and (max-width: $screen-sm-max) {
+  
+}
+
+// Small Screen
+@media (min-width: $screen-md) and (max-width: $screen-md-max) {
+  
+}
+
+// Small Screen
+@media (min-width: $screen-lg) and (max-width: $screen-xl-max) {
+  
+}

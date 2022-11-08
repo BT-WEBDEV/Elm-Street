@@ -1,0 +1,55 @@
+$white: #fff;
+$black: #000;
+$blue: #1C262E;
+$l-blue: #4085AF;
+$yellow: #CFAE29;
+$green: #2B4539;
+$l-green: #548070;
+
+//## Define the breakpoints at which your layout will change, adapting to different screen sizes.
+
+// Extra small screen / Phone
+$screen-xs:                  576px;
+
+// Small screen / Tablet
+$screen-sm:                  768px;
+
+// Medium screen / Tablet
+$screen-md:                  992px;
+
+// Small screen / Desktop
+$screen-lg:                  1200px;
+
+// Small screen / Desktop
+$screen-xl:                  1460px;
+
+// So media queries don't overlap when required, provide a maximum
+$screen-xs-max:              ($screen-sm - 1);
+$screen-sm-max:              ($screen-md - 1);
+$screen-md-max:              ($screen-lg - 1);
+$screen-xl-max:              ($screen-xl - 1);
+
+
+// Phone
+@media (max-width: $screen-xs) {
+
+}
+// Phone
+@media (max-width: $screen-xs-max) {
+
+}
+
+// Tablet
+@media (min-width: $screen-sm) and (max-width: $screen-sm-max) {
+  
+}
+
+// Small Screen
+@media (min-width: $screen-md) and (max-width: $screen-md-max) {
+  
+}
+
+// Small Screen
+@media (min-width: $screen-lg) and (max-width: $screen-xl-max) {
+  
+}

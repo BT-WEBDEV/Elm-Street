@@ -1,0 +1,119 @@
+.contact-header {
+	h1 {
+		font-weight: bold;
+		font-size: 34px;
+	}
+	p {
+		font-weight: 500;
+		font-size: 14px;
+		margin-bottom: 10px;
+	}
+}
+
+.contactForm {
+	form {
+		margin-top: 10px;
+		.md-form {
+		    margin-top: 8px;
+		    margin-bottom: 8px;
+			input[type=text],
+			input[type=email],
+			textarea {
+				background-color: white !important;
+				padding-left: 10px;
+			}
+			label {
+				font-size: 12px;
+				color: black;
+				font-weight: 600;
+				margin-left: 10px;
+			}
+			.form-control {
+				width: calc(100% - 10px);
+			}
+			textarea {
+				width: 100% !important;
+			}
+		}
+		/*.md-form input[type=text]:focus:not([readonly])+label {
+			color: black;
+		}*/
+		.md-form label.active {
+			font-size: 10px;
+		    -webkit-transform: translateY(-157%);
+		    -ms-transform: translateY(-157%);
+		    transform: translateY(-157%);
+		}
+	}
+	.btn-purple {
+		padding: 7px 45px;
+	}
+	.btn-dark {
+		padding: 10px 0px;
+	}
+}
+
+.landowner-info {
+	display: none;
+}
+#landowner {
+	.modal-body {
+		padding: 0px;
+	}
+	.content {
+		border-radius: 30px;
+		padding: 10px 10px;
+		h4 {
+			font-weight: 900;
+		}
+		p {
+			font-size: 13px;
+			font-weight: 500;
+		}
+		.modal-close {
+			position: absolute;
+			right: 4px;
+			top: 4px;
+			cursor: pointer;
+		}
+	}
+}
+.modal-open .modal {
+	@include gradient-horizontal(rgba(132, 150, 245, 0.6), rgba(183, 111, 210, 0.6), 30%, 100%);
+}
+/* Background */
+.bg-contact-purple {
+	@include gradient-horizontal(rgba(132, 150, 245, 0.6), rgba(183, 111, 210, 0.6), 30%, 100%);
+}
+.bg-contact-orange {
+	@include gradient-horizontal(rgba(141, 28, 59, 0.6), rgba(196, 118, 51, 0.6), 30%, 100%);
+}
+
+
+.office-locations {
+	.content {
+		text-align: center;
+		margin-top: 15px;
+		h5 {
+			margin: 0px;
+			font-size: 18px;
+		}
+		.btn {
+			text-align: center;
+			padding: 6px 0;
+			width: 140px;
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
