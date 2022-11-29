@@ -385,6 +385,7 @@ $(document).ready(function () {
 	});
 
 	// Material Select Initialization
+	var countyPA = ["ClearAll", "Montgomery"]
 	var countyVA = ["ClearAll", "Culpeper", "Fairfax", "Loudoun", "Prince William", "Stafford"];
 	var countyMD = ["ClearAll", "Anne Arundel", "Baltimore", "Carroll", "Charles", "Frederick", "Harford", "Howard", "Montgomery", "Prince George's", "Queen Anne's", "Talbot"];
 
@@ -476,6 +477,18 @@ $(document).ready(function () {
 			$('#select-county').find('option').not(':first').remove();
 			for (var i = 0; i < countyVA.length; i++) {
 				var option = $('<option>' + countyVA[i] + '</option>');
+				$('#select-county').append(option);
+			}
+			$('.mdb-select-county').materialSelect(); 
+		} else if (state == "PA") { 
+			// $('.mdb-select-county').materialSelect('destroy');
+			$('.mdb-select-county').materialSelect({
+				destroy: true
+			});
+			$('#select-county').removeAttr('disabled');
+			$('#select-county').find('option').not(':first').remove();
+			for (var i = 0; i < countyPA.length; i++) {
+				var option = $('<option>' + countyPA[i] + '</option>');
 				$('#select-county').append(option);
 			}
 			$('.mdb-select-county').materialSelect();

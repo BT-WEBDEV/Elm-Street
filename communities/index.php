@@ -24,6 +24,7 @@
 								<select id="select-state" class="mdb-select md-form md-custom-select">
 								  	<option disabled selected>State</option>
 								  	<option value="ClearAll">Clear All</option>
+									<option value="PA">Pennsylvania</option>
 								  	<option value="MD">Maryland</option>
 								  	<option value="VA">Virginia</option>
 								  	<option value="DC">Washington, D.C.</option>
