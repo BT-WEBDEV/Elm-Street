@@ -336,7 +336,7 @@
             "desc": "Unique amenities: Over 8 acres of open space, Playground, Seating Areas, Community Garden.",
             "website": "",
             "video": "",
-            "county": ["", ""],
+            "county": ["Charles", "MD"],
             "coords": ["38.631737", "-77.074893"],
             "address": "Matthews Road, Bryans Road, MD",
             "status": "Coming Soon"
@@ -349,7 +349,7 @@
             "desc": "Enjoy the small-town setting of Bel Air in this quiet enclave.  Explore the trails and parks or grab a bite to eat at the many nearby restaurants.",
             "website": "",
             "video": "",
-            "county": ["", ""],
+            "county": ["Harford", "MD"],
             "coords": ["39.548785", "-76.332421"],
             "address": "1112 Moores Mill Road, Bel Air, MD 21014",
             "status": "Coming Soon"
@@ -375,7 +375,7 @@
             "desc": "Luxury apartment living in the award winning Watershed Community.  Take a dip in the pool, work out in the gym, take Felix for a romp in the dog park, or get your sweat on jogging miles of exercise themed trails and nature paths.  Located next door to 12,000 acres of permanently preserved wildlife habitat, the Elms at Watershed is integrated into the natural environment all while being an easy commute to Baltimore, DC, and Annapolis.",
             "website": "",
             "video": "",
-            "county": ["", ""],
+            "county": ["Prince George's", "MD"],
             "coords": ["39.0954032", "-76.895007"],
             "address": "3403 Bankfull Lane, Laurel, MD 20724",
             "status": "Coming Soon"
@@ -388,7 +388,7 @@
             "desc": "Live your dream. Shop at nearby Reston Town Center. Walk to Metro’s Wiehle-Reston East Station and travel to Nationals Stadium and other fun places in Virginia, Maryland, and DC.",
             "website": "",
             "video": "",
-            "county": ["", ""],
+            "county": ["Fairfax", "VA"],
             "coords": ["38.94782256230391", "-77.33491392151514"],
             "address": "",
             "status": "Coming Soon"
@@ -731,7 +731,7 @@
             "image": "mount-vernon-gateway.jpg",
             "desc": "New luxury apartment community on the up and coming Route 1 corridor featuring larger floor plans and numerous outdoor amenities.",
             "website": "",
-            "county": ["Arlington", "VA"],
+            "county": ["Fairfax", "VA"],
             "coords": ["38.738854591705845", "-77.09144373509895"],
             "address": "3431 Buckman Rd, Alexandria, VA 22309",
             "status": "Coming Soon"
