@@ -83,7 +83,7 @@
 				<div id="success_message" class="text-center py-5"></div>
 				<form class="text-center" id="contact_form" name="contact_form">
 					<!-- <input type="hidden" name="mailto" value="anarmandakh@gkaadvertising.com"> -->
-					<input type="hidden" name="mailto" value="pcooke@elmstreetdev.com">
+					<input type="hidden" name="mailto" value="nfernandez@elmstreetdev.com">
 					<input type="hidden" name="subject" value="Elm Street Lead">
 					<div class="row no-margin">
 						<div class="col-md-6">
